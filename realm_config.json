@@ -1,0 +1,7 @@
+{
+    "app_id": "api-rmvhl",
+    "config_version": 20210101,
+    "name": "API",
+    "provider_region": "aws-ap-south-1",
+    "deployment_model": "LOCAL"
+}
