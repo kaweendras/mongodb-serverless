@@ -8,8 +8,8 @@ const axios = require('axios').default;
 // Execute a Find in MongoDB to retrieve the first 100 documents
 const findResult = await collection.find({}).limit(100).toArray();
 
-const txt = `<b>MongoDB Serverless Function</b> 🚀\n
-    <code>${JSON.stringify(findResult).slice(0, 200)}</code>\n▶️Project - <a href="https://github.com/kaweendras/mongodb-serverless">MongoDB - Serverless</a>◀️`;
+const txt = `<b>MongoDB Serverless - Get ALL NFTs</b> 🚀\n\n
+    <code>${JSON.stringify(findResult).slice(0, 200)}</code>\n\n▶️Project - <a href="https://github.com/kaweendras/mongodb-serverless">MongoDB - Serverless</a>◀️`;
 const msg =encodeURIComponent(txt);
   const url = `https://api.telegram.org/bot7237347207:AAGwmBSyDu8Qnmce1taWa2X5jBzoTbNQjrE/sendMessage?chat_id=-1002214009750&text=${msg}&parse_mode=HTML`;
 
