@@ -2,7 +2,7 @@ exports = async function(arg) {
 try {
 const mongodb = context.services.get("mongodb-atlas");
 const collection = mongodb.db("1155").collection("nft");
-  const axios = require('axios').default;
+const axios = require('axios').default;
   
 
 // Execute a Find in MongoDB to retrieve the first 100 documents
